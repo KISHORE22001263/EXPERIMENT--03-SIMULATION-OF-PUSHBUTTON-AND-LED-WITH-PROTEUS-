@@ -38,7 +38,7 @@ interfaces Datasheet - production data Features
 10. once the project is bulild 
 <img height=30% width=100% src="https://user-images.githubusercontent.com/36288975/226189577-c61cc1eb-3990-4968-8aa6-aefffc766b70.png">
 11. click on debug option 
-![image](https://user-images.githubusercontent.com/36288975/226189625-37daa9a3-62e9-42b5-a5ce-2ac63345905b.png)
+<img height=30% width=100% src="https://user-images.githubusercontent.com/36288975/226189625-37daa9a3-62e9-42b5-a5ce-2ac63345905b.png">
 12.  Creating Proteus project and running the simulation
 We are now at the last part of step by step guide on how to simulate STM32 project in Proteus.
 13. Create a new Proteus project and place STM32F40xx i.e. the same MCU for which the project was created in STM32Cube IDE. 
@@ -48,11 +48,14 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 <img height=30% width=100% src="https://user-images.githubusercontent.com/36288975/234186668-f21e74f6-8958-4eb2-899f-8e53770a5c06.png">
 15. click on debug and simulate using simulation as shown below 
 <img height=30% width=100% src="https://user-images.githubusercontent.com/36288975/233856904-99eb708a-c907-4595-9025-c9dbd89b8879.png">
-## STM 32 CUBE PROGRAM :   
+
+# STM32CUBE PROGRAM 
+
 ```
 NAME:KISHORE.B
 REF.NUMBER:212222110020
 ```
+
 ```
 #include "main.h"
 #include "stdbool.h"
@@ -81,7 +84,8 @@ int main(void)
   }
 }
 ```
+
 ## Proteus layout:
-<img height=30% width=100% src="https://github.com/KISHORE22001263/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/121484538/f23ffa2c-65d5-4c35-97ee-28e1846aa7fc">
+![Screenshot 2023-09-05 094204](https://github.com/KISHORE22001263/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/121484538/189052b0-deb6-4a8a-bc4e-f7512a6d6f72)
 ## Result :
 Interfacing a digital output and digital input  with ARM microcontroller are simulated in proteus and the results are verified.
